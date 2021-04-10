@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  margin-top: 100px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  background-size: 1420px;
+  background-image: url("bg-45.jpg");
+  color: white;
+}
+
+button{
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  background: #3398cc;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+}
+
+#history {
+  cursor: pointer;
+  margin-top: 5vh;
+}
+
+#guesses {
+  height: 150px;
+  width: 150px;
+  overflow: auto;
+}
